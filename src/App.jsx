@@ -4,7 +4,7 @@ import headerlogo from './assets/header-logo.png';
 import avatar from './assets/Gleb.png';
 import hometitle from './assets/title.png';
 import aboutimgs from './assets/Sills.png';
-import group3 from './assets/group3.png';
+import group3 from './assets/Group3.png';
 import porfolito from './assets/porfolito.png';
 
 const App = () => {
