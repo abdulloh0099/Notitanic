@@ -30,16 +30,17 @@ const App = () => {
         <img src={aboutimgs} className="aboutimgs" />
         <img src={group3} alt="" className="group3" />
       </div>
-      <div className="porfolito">
         <h1 className="porfolito-h1">PORFOLITO</h1>
+      <div className="porfolito">
         <div className="porfolito-div">
           <div className="porfolito-img">
-            <img src={porfolito} alt="" />
+            <img src={porfolito} className="porfolitoimg" />
           </div>
-          <div className="porfolito-texts" />
+          <div className="porfolito-texts">
             <h1 className='porfolito-heading'>Landing Ice-cream</h1>
-            <p className="porfolito p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut orci eu elit consequat posuere ut sed elit. Nulla et tristique felis. Morbi quis orci non purus blandit fringilla. Etiam et mollis eros. Duis venenatis vulputate lacus, non tristique eros placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim purus, tempor sed massa vel, accumsan bibendum magna. Nullam hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
+            <p className="porfolito-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut orci eu elit consequat posuere ut sed elit. Nulla et tristique felis. Morbi quis orci non purus blandit fringilla. Etiam et mollis eros. Duis venenatis vulputate lacus, non tristique eros placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim purus, tempor sed massa vel, accumsan bibendum magna. Nullam hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
             <p className="more">More</p>
+          </div>
         </div>
       </div>
     </div>

@@ -74,3 +74,73 @@ home-page {
   margin-top: 100px;
   margin-left: 500px;
 }
+
+.porfolito-h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 48px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white;
+}
+
+.porfolito-div {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  width: 970px;
+  height: 600px;
+  border-radius: 29px;
+  margin-left: 475px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  display: flex;
+}
+
+.porfolitoimg {
+  border-radius: 29px;
+  object-fit: cover;
+  margin-right: 81px;
+}
+
+.porfolito-texts {
+  display: block;
+  text-align: center;
+}
+
+.porfolito-heading {
+  font-weight: 300;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.porfolito-p {
+  font-weight: 300;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: center;
+  vertical-align: middle;
+  color: gray;
+}
+
+.more {
+  font-weight: 300;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #e2a100;
+  padding-top: 25px;
+}
