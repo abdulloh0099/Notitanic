@@ -144,3 +144,25 @@ home-page {
   color: #e2a100;
   padding-top: 25px;
 }
+
+footer {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  width: 1920px;
+  height: 238px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 115px;
+  padding-top: 50px;
+}
+
+.footer-h1, .ota2-h1 {
+  color: gray;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
