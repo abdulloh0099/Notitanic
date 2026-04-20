@@ -1,9 +1,21 @@
 import React from 'react'
 import "./App.css"
+import headerlogo from "./assets/header-logo.png"
 const App = () => {
   return (
     <div>
-      <h1 className="text">jhgkjyg</h1>
+      <header>
+          <group-1 className="header-logo">
+            <img src={headerlogo} alt="" />
+            <h1 className="header-h1">notitanic</h1>
+          </group-1>
+          <group-2 className="pages">
+            <h1 className="page-h1">Home</h1>
+            <h1 className="page-h1">About me</h1>
+            <h1 className="page-h1">Portfolio</h1>
+            <h1 className="page-h1">Contact</h1>
+          </group-2>
+      </header>
     </div>
   )
 }
