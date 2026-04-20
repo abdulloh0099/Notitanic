@@ -65,7 +65,12 @@ home-page {
   height: 1800px;
 }
 
-.aboutimgs{
+.aboutimgs {
   margin-top: 165px;
   margin-left: 375px;
+}
+
+.group3 {
+  margin-top: 100px;
+  margin-left: 500px;
 }
