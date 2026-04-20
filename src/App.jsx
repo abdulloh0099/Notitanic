@@ -1,6 +1,8 @@
 import React from 'react'
 import "./App.css"
 import headerlogo from "./assets/header-logo.png"
+import avatar from "./assets/Gleb.png"
+import hometitle from "./assets/title.png"
 const App = () => {
   return (
     <div>
@@ -16,6 +18,10 @@ const App = () => {
             <h1 className="page-h1">Contact</h1>
           </group-2>
       </header>
+      <home-page>
+        <img src={hometitle} alt="" />
+        <img src={avatar} alt="" />
+      </home-page>
     </div>
   )
 }
