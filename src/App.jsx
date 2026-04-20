@@ -23,9 +23,9 @@ const App = () => {
         <img src={hometitle} className="home-title" />
         <img src={avatar} className="home-avatar" />
       </home-page>
-      <about-me>
-        <img src={aboutimgs} alt="" />
-      </about-me>
+      <div className='about-me'>
+        <img src={aboutimgs} className="aboutimgs" />
+      </div>
     </div>
   )
 }

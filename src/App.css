@@ -29,7 +29,7 @@ group-2 {
   margin-left: 10px;
 }
 
-group-2{
+group-2 {
   gap: 145px;
   margin-top: 40px;
 }
@@ -48,13 +48,24 @@ group-2{
   color: gray;
 }
 
-home-page{
+home-page {
   display: flex;
 }
 
-.home-title{
+.home-title {
   width: 447px;
   height: 337px;
   margin-top: 194px;
+  margin-left: 375px;
+}
+
+.about-me {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  width: 1920px;
+  height: 1800px;
+}
+
+.aboutimgs{
+  margin-top: 165px;
   margin-left: 375px;
 }
