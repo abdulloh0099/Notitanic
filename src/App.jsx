@@ -43,6 +43,21 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      <footer>
+        <div className="ota1">
+          <h1 className="footer-h1">Home</h1>
+          <h1 className="footer-h1">About me</h1>
+          <h1 className="footer-h1">Porfolito</h1>
+          <h1 className="footer-h1">Contact</h1>
+        </div>
+        <div className="ota2">
+          <h1 className="ota2-h1">Contact</h1>
+          <h1 className="ota2-h1">Email: notitanic33@gmail.com</h1>
+          <h1 className="ota2-h1">Inst: notitanic33</h1>
+          <h1 className="ota2-h1">Calls: +7 (900) - 121 - 54 - 54</h1>
+        </div>
+      </footer>
     </div>
   );
 };
