@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(101.56deg, #2c2c2c 1.56%, #1c1c1c 95.55%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+group-1,
+group-2 {
+  display: flex;
+}
+.header-h1 {
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white;
+  margin-top: 41px;
+  margin-left: 10px;
+}
+
+group-2{
+  gap: 145px;
+  margin-top: 40px;
+}
+
+.header-img {
+  margin-top: 26px;
+}
+
+.page-h1 {
+  font-weight: 300;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: gray;
+}

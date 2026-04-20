@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <header>
           <group-1 className="header-logo">
-            <img src={headerlogo} alt="" />
+            <img src={headerlogo} className="header-img" />
             <h1 className="header-h1">notitanic</h1>
           </group-1>
           <group-2 className="pages">
