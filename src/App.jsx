@@ -3,6 +3,7 @@ import "./App.css"
 import headerlogo from "./assets/header-logo.png"
 import avatar from "./assets/Gleb.png"
 import hometitle from "./assets/title.png"
+import aboutimgs from "./assets/Sills.png"
 const App = () => {
   return (
     <div>
@@ -22,6 +23,9 @@ const App = () => {
         <img src={hometitle} className="home-title" />
         <img src={avatar} className="home-avatar" />
       </home-page>
+      <about-me>
+        <img src={aboutimgs} alt="" />
+      </about-me>
     </div>
   )
 }
