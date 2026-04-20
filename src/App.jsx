@@ -19,8 +19,8 @@ const App = () => {
           </group-2>
       </header>
       <home-page>
-        <img src={hometitle} alt="" />
-        <img src={avatar} alt="" />
+        <img src={hometitle} className="home-title" />
+        <img src={avatar} className="home-avatar" />
       </home-page>
     </div>
   )

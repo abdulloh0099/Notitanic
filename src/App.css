@@ -47,3 +47,14 @@ group-2{
   vertical-align: middle;
   color: gray;
 }
+
+home-page{
+  display: flex;
+}
+
+.home-title{
+  width: 447px;
+  height: 337px;
+  margin-top: 194px;
+  margin-left: 375px;
+}
